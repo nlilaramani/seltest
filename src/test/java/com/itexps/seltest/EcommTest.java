@@ -15,7 +15,7 @@ public class EcommTest {
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
-  @Before
+  /*@Before
   public void setUp() throws Exception {
     driver = DriverUtils.getChromeDriver();
     baseUrl = "https://www.katalon.com/";
@@ -120,5 +120,5 @@ public class EcommTest {
     } finally {
       acceptNextAlert = true;
     }
-  }
+  }*/
 }
