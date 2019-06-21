@@ -78,7 +78,7 @@ public class CalcTest {
         int n1 = 10;
         int n2 = 20;
         Calc instance = new Calc();
-        int expResult = 200;
+        int expResult = 300;
         int result = instance.multiply(n1, n2);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
