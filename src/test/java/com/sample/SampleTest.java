@@ -30,13 +30,8 @@ public class SampleTest {
     driver.findElement(By.name("q")).sendKeys("selenium jobs");
     driver.findElement(By.id("tsf")).submit();
     driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='More filters'])[1]/following::div[12]")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Deerfield, IL'])[7]/following::a[1]")).click();
-    // ERROR: Caught exception [ERROR: Unsupported command [selectWindow | win_ser_1 | ]]
-    driver.close();
-    // ERROR: Caught exception [ERROR: Unsupported command [selectWindow | win_ser_local | ]]
-    driver.close();
-    // ERROR: Caught exception [ERROR: Unsupported command [selectWindow | undefined | ]]
-  }
+    //driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Deerfield, IL'])[7]/following::a[1]")).click();
+    }
 
   @After
   public void tearDown() throws Exception {
